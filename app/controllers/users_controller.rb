@@ -5,4 +5,7 @@ class UsersController < ApplicationController
   def preview
     @users = User.first
   end
+  def new
+    @users = User.new
+  end
 end
